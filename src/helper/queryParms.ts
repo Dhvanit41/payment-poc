@@ -1,4 +1,4 @@
 export interface Query {
-    source: string;
-    target: string;
-};
+  source: string;
+  target: string;
+}

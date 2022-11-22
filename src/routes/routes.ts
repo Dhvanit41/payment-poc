@@ -1,10 +1,8 @@
-import express, { Request, Response } from "express";
-import { trmDetail } from "../controllers/trm";
+import express, { Request, Response } from 'express';
+import { trmDetail } from '../controllers/trm';
 
-const router = express.Router()
+const router = express.Router();
 
-router.get('/trm-details',trmDetail)
+router.get('/trm-details', trmDetail);
 
-export {
-    router
-}
+export { router };
